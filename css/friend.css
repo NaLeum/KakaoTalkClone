@@ -8,9 +8,7 @@
     align-items: center;
 }
 
-body {
-    min-height: 1500px;
-}
+
 
 .friend .friend__avatar {
     width: 50px;
