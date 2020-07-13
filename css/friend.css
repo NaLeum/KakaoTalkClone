@@ -1,7 +1,15 @@
+.friends {
+    margin-top: 100px;
+}
+
 .friend {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+body {
+    min-height: 1500px;
 }
 
 .friend .friend__avatar {

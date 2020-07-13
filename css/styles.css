@@ -44,3 +44,21 @@ a {
 main {
     animation: fadeIn .5s ease-in-out;
 }
+
+.setting-body .header-wrapper,
+.index-body .header-wrapper,
+.more-body .header-wrapper,
+.find-body .header-wrapper,
+.friend-body .header-wrapper {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 3;
+    padding-top: 10px;
+    padding-right: 40px;
+}
+
+.index-body main {
+    padding-top: 100px;
+}
