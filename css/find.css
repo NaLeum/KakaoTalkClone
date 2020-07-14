@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
 }
 
 .find .header-btn__title {
@@ -33,4 +34,8 @@
     font-size: 12px;
     opacity: .7;
     margin-bottom: 20px;
+}
+
+.find .friend__add-btn {
+    cursor: pointer;
 }

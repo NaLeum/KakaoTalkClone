@@ -1,28 +1,45 @@
-.header{
+.header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 
     align-items: center;
 }
 
-.header .header__title{
+.header .header__title {
     font-size: 24px;
     font-weight: 600;
 }
 
-.header .header__icon{
+@keyframes colorChange {
+    from {
+        transform: none;
+    }
+
+    to {
+        color: khaki;
+        transform: scale(1.4);
+    }
+}
+
+
+.header .header__icon {
     font-size: 20px;
     margin-left: 20px;
     cursor: pointer;
 }
 
-.header .header__header-column{
+.header__icon:hover {
+    animation: colorChange .3s linear forwards;
+
+}
+
+.header .header__header-column {
     display: flex;
     align-items: center;
 }
 
-.header .header__back-btn{
+.header .header__back-btn {
     font-size: 22px;
     margin-right: 20px;
 }

@@ -13,6 +13,12 @@
   padding: 0;
 }
 
+.chats-body .chat-screen {
+  padding: 0;
+}
+
+
+
 .chats-body .header,
 .chats-body .status-bar {
   padding: 0 20px;
@@ -225,4 +231,8 @@
 
 .sent-message {
   animation: sentAnimation 0.5s ease-in forwards;
+}
+
+.chats__list li {
+  margin-bottom: 15px;
 }

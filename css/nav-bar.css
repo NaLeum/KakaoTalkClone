@@ -34,6 +34,8 @@
     align-items: center;
     border-radius: 50%;
     font-size: 10px;
+    z-index: 2;
+    transition: .3s linear;
 }
 
 @keyframes showNavBar {
@@ -50,4 +52,27 @@
     transform: translateY(80px);
     animation: showNavBar .5s ease-in-out forwards;
     animation-delay: .5s;
+}
+
+@keyframes colorChange {
+    from {
+        transform: none;
+    }
+
+    to {
+        color: khaki;
+        transform: scale(1.4);
+    }
+}
+
+.nav i:hover {
+    animation: colorChange .3s linear forwards;
+}
+
+
+i:hover+.nav__badge {
+    position: absolute;
+    top: -9px;
+    right: -9px;
+
 }
