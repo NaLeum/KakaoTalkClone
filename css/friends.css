@@ -11,3 +11,8 @@
     opacity: .6;
     margin-bottom: 12px;
 }
+
+.friends__plus.friends__birthday {
+    border-bottom: 0;
+    padding-bottom: 0;
+}

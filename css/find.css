@@ -24,6 +24,10 @@
     font-size: 12px;
 }
 
+.find .header-btn__icon i:hover {
+    animation: colorChange .3s linear forwards;
+}
+
 .find .find__recommended {
     margin-top: 30px;
     padding-top: 15px;
