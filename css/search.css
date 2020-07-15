@@ -166,6 +166,10 @@ body.search-body {
 
 }
 
+.ranking__title-name {
+    margin-bottom: 5px;
+}
+
 .ranking__title .ranking__title-how {
     font-size: 14px;
     color: #797979;
